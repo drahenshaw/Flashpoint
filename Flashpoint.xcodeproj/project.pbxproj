@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		B6DAF78F319CC8819E0F6B76 /* Pods_Flashpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2328D0670766E9DBDE28CD /* Pods_Flashpoint.framework */; };
 		FDC03B4520D43CF6002B1D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4420D43CF6002B1D33 /* AppDelegate.swift */; };
-		FDC03B4720D43CF6002B1D33 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4620D43CF6002B1D33 /* FirstViewController.swift */; };
-		FDC03B4920D43CF6002B1D33 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4820D43CF6002B1D33 /* SecondViewController.swift */; };
+		FDC03B4720D43CF6002B1D33 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4620D43CF6002B1D33 /* FeedVC.swift */; };
+		FDC03B4920D43CF6002B1D33 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4820D43CF6002B1D33 /* GroupsVC.swift */; };
 		FDC03B4C20D43CF6002B1D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC03B4A20D43CF6002B1D33 /* Main.storyboard */; };
 		FDC03B4E20D43CFF002B1D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC03B4D20D43CFF002B1D33 /* Assets.xcassets */; };
 		FDC03B5120D43CFF002B1D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC03B4F20D43CFF002B1D33 /* LaunchScreen.storyboard */; };
@@ -29,8 +29,8 @@
 		C2298C7256F5441ACAD845B2 /* Pods-Flashpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flashpoint/Pods-Flashpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		FDC03B4120D43CF6002B1D33 /* Flashpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC03B4420D43CF6002B1D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FDC03B4620D43CF6002B1D33 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FDC03B4820D43CF6002B1D33 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FDC03B4620D43CF6002B1D33 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		FDC03B4820D43CF6002B1D33 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
 		FDC03B4B20D43CF6002B1D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDC03B4D20D43CFF002B1D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDC03B5020D43CFF002B1D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -112,8 +112,8 @@
 		FDC03B5820D43D3D002B1D33 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FDC03B4620D43CF6002B1D33 /* FirstViewController.swift */,
-				FDC03B4820D43CF6002B1D33 /* SecondViewController.swift */,
+				FDC03B4620D43CF6002B1D33 /* FeedVC.swift */,
+				FDC03B4820D43CF6002B1D33 /* GroupsVC.swift */,
 				FDC03BBB20D44FA2002B1D33 /* AuthVC.swift */,
 				FDC03BBD20D44FD6002B1D33 /* LoginVC.swift */,
 			);
@@ -272,12 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDC03BBC20D44FA2002B1D33 /* AuthVC.swift in Sources */,
-				FDC03B4920D43CF6002B1D33 /* SecondViewController.swift in Sources */,
+				FDC03B4920D43CF6002B1D33 /* GroupsVC.swift in Sources */,
 				FDC03BBE20D44FD6002B1D33 /* LoginVC.swift in Sources */,
 				FDC03BC420D45450002B1D33 /* AuthService.swift in Sources */,
 				FDC03B4520D43CF6002B1D33 /* AppDelegate.swift in Sources */,
 				FDC03BC220D452DF002B1D33 /* ShadowView.swift in Sources */,
-				FDC03B4720D43CF6002B1D33 /* FirstViewController.swift in Sources */,
+				FDC03B4720D43CF6002B1D33 /* FeedVC.swift in Sources */,
 				FDC03BC020D45035002B1D33 /* InsetTextField.swift in Sources */,
 				FDC03B6020D44288002B1D33 /* DataService.swift in Sources */,
 			);
