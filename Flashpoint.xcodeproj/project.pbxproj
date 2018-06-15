@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B6DAF78F319CC8819E0F6B76 /* Pods_Flashpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2328D0670766E9DBDE28CD /* Pods_Flashpoint.framework */; };
 		FDC03B4520D43CF6002B1D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4420D43CF6002B1D33 /* AppDelegate.swift */; };
 		FDC03B4720D43CF6002B1D33 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4620D43CF6002B1D33 /* FirstViewController.swift */; };
 		FDC03B4920D43CF6002B1D33 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4820D43CF6002B1D33 /* SecondViewController.swift */; };
 		FDC03B4C20D43CF6002B1D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC03B4A20D43CF6002B1D33 /* Main.storyboard */; };
 		FDC03B4E20D43CFF002B1D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC03B4D20D43CFF002B1D33 /* Assets.xcassets */; };
 		FDC03B5120D43CFF002B1D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC03B4F20D43CFF002B1D33 /* LaunchScreen.storyboard */; };
+		FDC03B5E20D43F76002B1D33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDC03B5D20D43F76002B1D33 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20936B55574A0CF417D86E5B /* Pods-Flashpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flashpoint/Pods-Flashpoint.release.xcconfig"; sourceTree = "<group>"; };
+		5E2328D0670766E9DBDE28CD /* Pods_Flashpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flashpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2298C7256F5441ACAD845B2 /* Pods-Flashpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flashpoint/Pods-Flashpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		FDC03B4120D43CF6002B1D33 /* Flashpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC03B4420D43CF6002B1D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC03B4620D43CF6002B1D33 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		FDC03B4D20D43CFF002B1D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDC03B5020D43CFF002B1D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDC03B5220D43CFF002B1D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC03B5D20D43F76002B1D33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DAF78F319CC8819E0F6B76 /* Pods_Flashpoint.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8330E86FF4862D105D0D5D38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2298C7256F5441ACAD845B2 /* Pods-Flashpoint.debug.xcconfig */,
+				20936B55574A0CF417D86E5B /* Pods-Flashpoint.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B91AD5AAFDDFEB207429EC2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E2328D0670766E9DBDE28CD /* Pods_Flashpoint.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FDC03B3820D43CF6002B1D33 = {
 			isa = PBXGroup;
 			children = (
 				FDC03B4320D43CF6002B1D33 /* Flashpoint */,
 				FDC03B4220D43CF6002B1D33 /* Products */,
+				8330E86FF4862D105D0D5D38 /* Pods */,
+				B91AD5AAFDDFEB207429EC2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +92,7 @@
 				FDC03B4D20D43CFF002B1D33 /* Assets.xcassets */,
 				FDC03B4F20D43CFF002B1D33 /* LaunchScreen.storyboard */,
 				FDC03B5220D43CFF002B1D33 /* Info.plist */,
+				FDC03B5D20D43F76002B1D33 /* GoogleService-Info.plist */,
 			);
 			path = Flashpoint;
 			sourceTree = "<group>";
@@ -114,9 +141,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDC03B5520D43CFF002B1D33 /* Build configuration list for PBXNativeTarget "Flashpoint" */;
 			buildPhases = (
+				9FD5B4B01ACF359820BC044F /* [CP] Check Pods Manifest.lock */,
 				FDC03B3D20D43CF6002B1D33 /* Sources */,
 				FDC03B3E20D43CF6002B1D33 /* Frameworks */,
 				FDC03B3F20D43CF6002B1D33 /* Resources */,
+				C78912CE796BE984D87F99AB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,10 +197,52 @@
 				FDC03B5120D43CFF002B1D33 /* LaunchScreen.storyboard in Resources */,
 				FDC03B4E20D43CFF002B1D33 /* Assets.xcassets in Resources */,
 				FDC03B4C20D43CF6002B1D33 /* Main.storyboard in Resources */,
+				FDC03B5E20D43F76002B1D33 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9FD5B4B01ACF359820BC044F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flashpoint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C78912CE796BE984D87F99AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Flashpoint/Pods-Flashpoint-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flashpoint/Pods-Flashpoint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FDC03B3D20D43CF6002B1D33 /* Sources */ = {
@@ -322,6 +393,7 @@
 		};
 		FDC03B5620D43CFF002B1D33 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2298C7256F5441ACAD845B2 /* Pods-Flashpoint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -340,6 +412,7 @@
 		};
 		FDC03B5720D43CFF002B1D33 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20936B55574A0CF417D86E5B /* Pods-Flashpoint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
