@@ -20,6 +20,7 @@
 		FDC03BBE20D44FD6002B1D33 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03BBD20D44FD6002B1D33 /* LoginVC.swift */; };
 		FDC03BC020D45035002B1D33 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03BBF20D45035002B1D33 /* InsetTextField.swift */; };
 		FDC03BC220D452DF002B1D33 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03BC120D452DF002B1D33 /* ShadowView.swift */; };
+		FDC03BC420D45450002B1D33 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03BC320D45450002B1D33 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		FDC03BBD20D44FD6002B1D33 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		FDC03BBF20D45035002B1D33 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		FDC03BC120D452DF002B1D33 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		FDC03BC320D45450002B1D33 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				FDC03B5F20D44288002B1D33 /* DataService.swift */,
+				FDC03BC320D45450002B1D33 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				FDC03BBC20D44FA2002B1D33 /* AuthVC.swift in Sources */,
 				FDC03B4920D43CF6002B1D33 /* SecondViewController.swift in Sources */,
 				FDC03BBE20D44FD6002B1D33 /* LoginVC.swift in Sources */,
+				FDC03BC420D45450002B1D33 /* AuthService.swift in Sources */,
 				FDC03B4520D43CF6002B1D33 /* AppDelegate.swift in Sources */,
 				FDC03BC220D452DF002B1D33 /* ShadowView.swift in Sources */,
 				FDC03B4720D43CF6002B1D33 /* FirstViewController.swift in Sources */,
