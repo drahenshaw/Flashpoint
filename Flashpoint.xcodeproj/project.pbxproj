@@ -16,6 +16,9 @@
 		FDC03B5120D43CFF002B1D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC03B4F20D43CFF002B1D33 /* LaunchScreen.storyboard */; };
 		FDC03B5E20D43F76002B1D33 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDC03B5D20D43F76002B1D33 /* GoogleService-Info.plist */; };
 		FDC03B6020D44288002B1D33 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B5F20D44288002B1D33 /* DataService.swift */; };
+		FDC03BBC20D44FA2002B1D33 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03BBB20D44FA2002B1D33 /* AuthVC.swift */; };
+		FDC03BBE20D44FD6002B1D33 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03BBD20D44FD6002B1D33 /* LoginVC.swift */; };
+		FDC03BC020D45035002B1D33 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03BBF20D45035002B1D33 /* InsetTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		FDC03B5220D43CFF002B1D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDC03B5D20D43F76002B1D33 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FDC03B5F20D44288002B1D33 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FDC03BBB20D44FA2002B1D33 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		FDC03BBD20D44FD6002B1D33 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FDC03BBF20D45035002B1D33 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,8 @@
 			children = (
 				FDC03B4620D43CF6002B1D33 /* FirstViewController.swift */,
 				FDC03B4820D43CF6002B1D33 /* SecondViewController.swift */,
+				FDC03BBB20D44FA2002B1D33 /* AuthVC.swift */,
+				FDC03BBD20D44FD6002B1D33 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -111,6 +119,7 @@
 		FDC03B5920D43D51002B1D33 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FDC03BBF20D45035002B1D33 /* InsetTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -256,9 +265,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC03BBC20D44FA2002B1D33 /* AuthVC.swift in Sources */,
 				FDC03B4920D43CF6002B1D33 /* SecondViewController.swift in Sources */,
+				FDC03BBE20D44FD6002B1D33 /* LoginVC.swift in Sources */,
 				FDC03B4520D43CF6002B1D33 /* AppDelegate.swift in Sources */,
 				FDC03B4720D43CF6002B1D33 /* FirstViewController.swift in Sources */,
+				FDC03BC020D45035002B1D33 /* InsetTextField.swift in Sources */,
 				FDC03B6020D44288002B1D33 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
