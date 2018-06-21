@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  GroupsVC.swift
 //  Flashpoint
 //
 //  Created by David Henshaw on 6/15/18.
