@@ -11,6 +11,7 @@
 		FD914E8C20DC5A6000DE30B3 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD914E8B20DC5A6000DE30B3 /* CreatePostVC.swift */; };
 		FD914E8E20DC5ED700DE30B3 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD914E8D20DC5ED700DE30B3 /* UIViewExt.swift */; };
 		FD914E9020DC646900DE30B3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD914E8F20DC646900DE30B3 /* FeedCell.swift */; };
+		FD914E9220DC65F800DE30B3 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD914E9120DC65F800DE30B3 /* Message.swift */; };
 		FDC03B4520D43CF6002B1D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4420D43CF6002B1D33 /* AppDelegate.swift */; };
 		FDC03B4720D43CF6002B1D33 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4620D43CF6002B1D33 /* FeedVC.swift */; };
 		FDC03B4920D43CF6002B1D33 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4820D43CF6002B1D33 /* GroupsVC.swift */; };
@@ -34,6 +35,7 @@
 		FD914E8B20DC5A6000DE30B3 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		FD914E8D20DC5ED700DE30B3 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		FD914E8F20DC646900DE30B3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		FD914E9120DC65F800DE30B3 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		FDC03B4120D43CF6002B1D33 /* Flashpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC03B4420D43CF6002B1D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC03B4620D43CF6002B1D33 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 		FDC03B5A20D43D59002B1D33 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FD914E9120DC65F800DE30B3 /* Message.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				FDC03B4720D43CF6002B1D33 /* FeedVC.swift in Sources */,
 				FDC03BC020D45035002B1D33 /* InsetTextField.swift in Sources */,
 				FDC03B6020D44288002B1D33 /* DataService.swift in Sources */,
+				FD914E9220DC65F800DE30B3 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
