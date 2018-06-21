@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Create PostVC-->
         <scene sceneID="Hun-fj-Wmk">
             <objects>
-                <viewController id="PqG-OU-qcw" sceneMemberID="viewController">
+                <viewController id="PqG-OU-qcw" customClass="CreatePostVC" customModule="Flashpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="djm-pt-KZD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -38,6 +38,9 @@
                                             <constraint firstAttribute="height" constant="30" id="BPb-DW-BQj"/>
                                         </constraints>
                                         <state key="normal" image="close"/>
+                                        <connections>
+                                            <action selector="closeButtonPressed:" destination="PqG-OU-qcw" eventType="touchUpInside" id="4wz-sy-kL0"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -82,6 +85,9 @@
                                 <state key="normal" title=" Send" image="send">
                                     <color key="titleColor" red="0.41960784313725491" green="0.73725490196078436" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendButtonPressed:" destination="PqG-OU-qcw" eventType="touchUpInside" id="jpB-us-zbP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.25490196079999999" green="0.27058823529999998" blue="0.31372549020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -104,6 +110,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="CAO-id-3cA"/>
                     </view>
+                    <connections>
+                        <outlet property="emailLabel" destination="REg-7k-F68" id="gby-KU-FIb"/>
+                        <outlet property="profileImage" destination="ZbX-dz-aJT" id="0Yb-dF-Ri4"/>
+                        <outlet property="sendButton" destination="mvr-EU-VDd" id="mtD-fV-11d"/>
+                        <outlet property="textField" destination="tqg-T2-gyh" id="7KV-R6-iZj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JSQ-lR-RdT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -112,7 +124,7 @@
         <!--Feed-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FeedVC" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" customClass="FeedVC" customModule="Flashpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,6 +149,9 @@
                                             <constraint firstAttribute="height" constant="30" id="w0e-0e-zH7"/>
                                         </constraints>
                                         <state key="normal" image="compose"/>
+                                        <connections>
+                                            <segue destination="PqG-OU-qcw" kind="presentation" id="aSl-8l-CSy"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.16078431372549018" green="0.16862745098039217" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B6DAF78F319CC8819E0F6B76 /* Pods_Flashpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2328D0670766E9DBDE28CD /* Pods_Flashpoint.framework */; };
+		FD914E8C20DC5A6000DE30B3 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD914E8B20DC5A6000DE30B3 /* CreatePostVC.swift */; };
 		FDC03B4520D43CF6002B1D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4420D43CF6002B1D33 /* AppDelegate.swift */; };
 		FDC03B4720D43CF6002B1D33 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4620D43CF6002B1D33 /* FeedVC.swift */; };
 		FDC03B4920D43CF6002B1D33 /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC03B4820D43CF6002B1D33 /* GroupsVC.swift */; };
@@ -28,6 +29,7 @@
 		20936B55574A0CF417D86E5B /* Pods-Flashpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flashpoint/Pods-Flashpoint.release.xcconfig"; sourceTree = "<group>"; };
 		5E2328D0670766E9DBDE28CD /* Pods_Flashpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flashpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2298C7256F5441ACAD845B2 /* Pods-Flashpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flashpoint/Pods-Flashpoint.debug.xcconfig"; sourceTree = "<group>"; };
+		FD914E8B20DC5A6000DE30B3 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		FDC03B4120D43CF6002B1D33 /* Flashpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDC03B4420D43CF6002B1D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDC03B4620D43CF6002B1D33 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				FDC03BBB20D44FA2002B1D33 /* AuthVC.swift */,
 				FDC03BBD20D44FD6002B1D33 /* LoginVC.swift */,
 				FDC03BC520D46CFE002B1D33 /* MeVC.swift */,
+				FD914E8B20DC5A6000DE30B3 /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				FDC03BC420D45450002B1D33 /* AuthService.swift in Sources */,
 				FDC03B4520D43CF6002B1D33 /* AppDelegate.swift in Sources */,
 				FDC03BC220D452DF002B1D33 /* ShadowView.swift in Sources */,
+				FD914E8C20DC5A6000DE30B3 /* CreatePostVC.swift in Sources */,
 				FDC03B4720D43CF6002B1D33 /* FeedVC.swift in Sources */,
 				FDC03BC020D45035002B1D33 /* InsetTextField.swift in Sources */,
 				FDC03B6020D44288002B1D33 /* DataService.swift in Sources */,
