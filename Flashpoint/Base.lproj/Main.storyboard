@@ -21,11 +21,11 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="snp-Rd-pnw">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="_Post Something" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odB-TU-lno">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="_Post Something" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odB-TU-lno">
                                         <rect key="frame" x="87" y="35" width="200" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="Fo8-It-wjo"/>
-                                            <constraint firstAttribute="width" constant="54.5" id="ec3-Rg-i1Z"/>
+                                            <constraint firstAttribute="width" constant="200" id="ec3-Rg-i1Z"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
                                         <color key="textColor" red="0.56078431370000004" green="0.81176470590000005" blue="0.30588235289999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -52,7 +52,7 @@
                                     <constraint firstItem="BuS-Fh-HKY" firstAttribute="leading" secondItem="snp-Rd-pnw" secondAttribute="leading" constant="20" id="yC0-bU-0eA"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZbX-dz-aJT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="defaultProfileImage" translatesAutoresizingMaskIntoConstraints="NO" id="ZbX-dz-aJT">
                                 <rect key="frame" x="20" y="90" width="60" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="60" id="dpK-vD-hnD"/>
@@ -69,7 +69,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Say something here..." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tqg-T2-gyh">
-                                <rect key="frame" x="0.0" y="170" width="375" height="427"/>
+                                <rect key="frame" x="20" y="170" width="335" height="427"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
@@ -99,11 +99,11 @@
                             <constraint firstItem="ZbX-dz-aJT" firstAttribute="leading" secondItem="CAO-id-3cA" secondAttribute="leading" constant="20" id="S8h-7x-tkS"/>
                             <constraint firstItem="CAO-id-3cA" firstAttribute="trailing" secondItem="mvr-EU-VDd" secondAttribute="trailing" id="UKv-Ym-nAA"/>
                             <constraint firstItem="snp-Rd-pnw" firstAttribute="trailing" secondItem="CAO-id-3cA" secondAttribute="trailing" id="Xba-4m-zXh"/>
-                            <constraint firstItem="CAO-id-3cA" firstAttribute="trailing" secondItem="tqg-T2-gyh" secondAttribute="trailing" id="ay3-Id-vLi"/>
+                            <constraint firstItem="CAO-id-3cA" firstAttribute="trailing" secondItem="tqg-T2-gyh" secondAttribute="trailing" constant="20" id="ay3-Id-vLi"/>
                             <constraint firstItem="CAO-id-3cA" firstAttribute="trailing" secondItem="REg-7k-F68" secondAttribute="trailing" constant="20" id="c3g-ZN-kwu"/>
                             <constraint firstItem="CAO-id-3cA" firstAttribute="bottom" secondItem="mvr-EU-VDd" secondAttribute="bottom" id="eZd-Rg-5nv"/>
                             <constraint firstItem="snp-Rd-pnw" firstAttribute="top" secondItem="djm-pt-KZD" secondAttribute="top" id="n9i-lW-cCc"/>
-                            <constraint firstItem="tqg-T2-gyh" firstAttribute="leading" secondItem="CAO-id-3cA" secondAttribute="leading" id="nwd-9I-cc9"/>
+                            <constraint firstItem="tqg-T2-gyh" firstAttribute="leading" secondItem="CAO-id-3cA" secondAttribute="leading" constant="20" id="nwd-9I-cc9"/>
                             <constraint firstItem="tqg-T2-gyh" firstAttribute="top" secondItem="ZbX-dz-aJT" secondAttribute="bottom" constant="20" id="rP0-Ik-8b8"/>
                             <constraint firstItem="mvr-EU-VDd" firstAttribute="leading" secondItem="CAO-id-3cA" secondAttribute="leading" id="vfQ-0I-RGt"/>
                             <constraint firstItem="REg-7k-F68" firstAttribute="centerY" secondItem="ZbX-dz-aJT" secondAttribute="centerY" id="y5u-1y-7pk"/>

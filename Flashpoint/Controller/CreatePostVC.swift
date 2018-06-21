@@ -20,6 +20,8 @@ class CreatePostVC: UIViewController {
         super.viewDidLoad()
 
         textField.delegate = self
+        sendButton.bindToKeyboard()
+        
         // Do any additional setup after loading the view.
     }
 
