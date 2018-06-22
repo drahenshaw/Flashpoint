@@ -359,7 +359,7 @@
         <!--Group FeedVC-->
         <scene sceneID="pnV-xh-Aqv">
             <objects>
-                <viewController id="Tgr-G8-yVL" customClass="GroupFeedVC" customModule="Flashpoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="GroupFeedVC" id="Tgr-G8-yVL" customClass="GroupFeedVC" customModule="Flashpoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7SL-1E-lcb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -512,6 +512,7 @@
                     </view>
                     <connections>
                         <outlet property="groupTitleLabel" destination="jQZ-DM-Dq0" id="QDI-lT-SUg"/>
+                        <outlet property="membersLabel" destination="gze-4h-wbc" id="LIz-tn-gX3"/>
                         <outlet property="messageTextField" destination="UmS-kC-vM1" id="QB0-af-bma"/>
                         <outlet property="sendButton" destination="FzB-mh-EZH" id="qLM-46-mJz"/>
                         <outlet property="sendButtonView" destination="yyo-1B-1M9" id="Td2-MR-rNd"/>
