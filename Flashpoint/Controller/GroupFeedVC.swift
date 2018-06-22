@@ -37,7 +37,7 @@ class GroupFeedVC: UIViewController {
         
         //Required for iOS 11 to get scroll animation
         self.tableView.estimatedRowHeight = 0; self.tableView.estimatedSectionHeaderHeight = 0;      self.tableView.estimatedSectionFooterHeight = 0
-        
+        //
         groupTitleLabel.text = group?.groupTitle
         DataService.instance.getEmailsFor(group: group!) { (returnedEmails) in
             self.membersLabel.text = returnedEmails.joined(separator: ", ")
@@ -70,7 +70,7 @@ class GroupFeedVC: UIViewController {
     }
     
     @IBAction func backButtonPressed(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        dismissDetail()
     }
     
 
