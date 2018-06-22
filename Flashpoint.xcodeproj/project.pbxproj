@@ -10,6 +10,8 @@
 		B6DAF78F319CC8819E0F6B76 /* Pods_Flashpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E2328D0670766E9DBDE28CD /* Pods_Flashpoint.framework */; };
 		FD59F07220DD7B0200D72D90 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59F07120DD7B0200D72D90 /* CreateGroupsVC.swift */; };
 		FD59F07420DD7E7B00D72D90 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59F07320DD7E7B00D72D90 /* UserCell.swift */; };
+		FD59F07620DD941100D72D90 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59F07520DD941100D72D90 /* GroupCell.swift */; };
+		FD59F07820DD974100D72D90 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD59F07720DD974100D72D90 /* Group.swift */; };
 		FD914E8C20DC5A6000DE30B3 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD914E8B20DC5A6000DE30B3 /* CreatePostVC.swift */; };
 		FD914E8E20DC5ED700DE30B3 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD914E8D20DC5ED700DE30B3 /* UIViewExt.swift */; };
 		FD914E9020DC646900DE30B3 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD914E8F20DC646900DE30B3 /* FeedCell.swift */; };
@@ -36,6 +38,8 @@
 		C2298C7256F5441ACAD845B2 /* Pods-Flashpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flashpoint/Pods-Flashpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		FD59F07120DD7B0200D72D90 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
 		FD59F07320DD7E7B00D72D90 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		FD59F07520DD941100D72D90 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		FD59F07720DD974100D72D90 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		FD914E8B20DC5A6000DE30B3 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		FD914E8D20DC5ED700DE30B3 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		FD914E8F20DC646900DE30B3 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 				FDC03BC120D452DF002B1D33 /* ShadowView.swift */,
 				FD914E8F20DC646900DE30B3 /* FeedCell.swift */,
 				FD59F07320DD7E7B00D72D90 /* UserCell.swift */,
+				FD59F07520DD941100D72D90 /* GroupCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				FD914E9120DC65F800DE30B3 /* Message.swift */,
+				FD59F07720DD974100D72D90 /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -295,11 +301,13 @@
 				FD914E8E20DC5ED700DE30B3 /* UIViewExt.swift in Sources */,
 				FD914E9020DC646900DE30B3 /* FeedCell.swift in Sources */,
 				FDC03BC620D46CFE002B1D33 /* MeVC.swift in Sources */,
+				FD59F07620DD941100D72D90 /* GroupCell.swift in Sources */,
 				FDC03BBC20D44FA2002B1D33 /* AuthVC.swift in Sources */,
 				FDC03B4920D43CF6002B1D33 /* GroupsVC.swift in Sources */,
 				FDC03BBE20D44FD6002B1D33 /* LoginVC.swift in Sources */,
 				FDC03BC420D45450002B1D33 /* AuthService.swift in Sources */,
 				FD59F07220DD7B0200D72D90 /* CreateGroupsVC.swift in Sources */,
+				FD59F07820DD974100D72D90 /* Group.swift in Sources */,
 				FD59F07420DD7E7B00D72D90 /* UserCell.swift in Sources */,
 				FDC03B4520D43CF6002B1D33 /* AppDelegate.swift in Sources */,
 				FDC03BC220D452DF002B1D33 /* ShadowView.swift in Sources */,
